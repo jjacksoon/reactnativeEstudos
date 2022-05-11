@@ -38,6 +38,7 @@ export function Calculadora(){
 
   function calculator(){
     const splitNumbers = currentNumber.split('');
+    console.log(splitNumbers);
     const firstNumber = parseFloat(splitNumbers[0]);
     const lastNumber = parseFloat(splitNumbers[2]);
     const operator = splitNumbers[1];
